@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="modes">
+		<item>@string/standard_mode</item>
+		<item>@string/marathon_mode</item>
+	</array>
+	
+	<string-array name="row_density">
+		<item value="0">@string/row_density_0</item>
+		<item value="1">@string/row_density_1</item>
+		<item value="2">@string/row_density_2</item>
+		<item value="3">@string/row_density_3</item>
+		<item value="4">@string/row_density_4</item>
+		<item value="5">@string/row_density_5</item>
+		<item value="6">@string/row_density_6</item>
+		<item value="7">@string/row_density_7</item>
+		<item value="8">@string/row_density_8</item>
+		<item value="9">@string/row_density_9</item>
+	</string-array>
+	
+		<string-array name="row_density_values">
+		<item value="0">0</item>
+		<item value="1">1</item>
+		<item value="2">2</item>
+		<item value="3">3</item>
+		<item value="4">4</item>
+		<item value="5">5</item>
+		<item value="6">6</item>
+		<item value="7">7</item>
+		<item value="8">8</item>
+		<item value="9">9</item>
+	</string-array>
+	
+	<string-array name="prefilled_row">
+		<item value="0">@string/prefilled_row_0</item>
+		<item value="1">@string/prefilled_row_1</item>
+		<item value="2">@string/prefilled_row_2</item>
+		<item value="3">@string/prefilled_row_3</item>
+		<item value="4">@string/prefilled_row_4</item>
+		<item value="5">@string/prefilled_row_5</item>
+		<item value="6">@string/prefilled_row_6</item>
+		<item value="7">@string/prefilled_row_7</item>
+		<item value="8">@string/prefilled_row_8</item>
+		<item value="9">@string/prefilled_row_9</item>
+		<item value="10">@string/prefilled_row_10</item>
+		<item value="11">@string/prefilled_row_11</item>
+		<item value="12">@string/prefilled_row_12</item>
+		<item value="13">@string/prefilled_row_13</item>
+		<item value="14">@string/prefilled_row_14</item>
+		<item value="15">@string/prefilled_row_15</item>
+		<item value="16">@string/prefilled_row_16</item>
+		<item value="17">@string/prefilled_row_17</item>
+		<item value="18">@string/prefilled_row_18</item>
+		<item value="19">@string/prefilled_row_19</item>
+	</string-array>
+	
+		<string-array name="prefilled_row_values">
+		<item value="0">0</item>
+		<item value="1">1</item>
+		<item value="2">2</item>
+		<item value="3">3</item>
+		<item value="4">4</item>
+		<item value="5">5</item>
+		<item value="6">6</item>
+		<item value="7">7</item>
+		<item value="8">8</item>
+		<item value="9">9</item>
+		<item value="10">10</item>
+		<item value="11">11</item>
+		<item value="12">12</item>
+		<item value="13">13</item>
+		<item value="14">14</item>
+		<item value="15">15</item>
+		<item value="16">16</item>
+		<item value="17">17</item>
+		<item value="18">18</item>
+		<item value="19">19</item>
+	</string-array>
+
+	<string-array name="delay_speed">
+		<item value="1">@string/delay_speed_1</item>
+		<item value="2">@string/delay_speed_2</item>
+		<item value="3">@string/delay_speed_3</item>
+		<item value="4">@string/delay_speed_4</item>
+		<item value="5">@string/delay_speed_5</item>
+	</string-array>
+	
+	<string-array name="delay_speed_values">
+		<item value="1">1</item>
+		<item value="2">2</item>
+		<item value="3">3</item>
+		<item value="4">4</item>
+		<item value="5">5</item>
+	</string-array>
+	
+	<string-array name="touch_type_entries">
+		<item value="1">@string/touch_type_1</item>
+		<item value="2">@string/touch_type_2</item>
+	</string-array>
+	
+	<string-array name="touch_type_values">
+		<item value="1">1</item>
+		<item value="2">2</item>
+	</string-array>
+	
+	<string-array name="board_orientation_entries">
+		<item>@string/board_orientation_auto</item>
+		<item>@string/board_orientation_portrait</item>
+		<item>@string/board_orientation_landscape</item>
+	</string-array>
+
+	<string-array name="board_orientation_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	
+
+</resources>

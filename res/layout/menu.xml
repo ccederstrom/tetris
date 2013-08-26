@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/game.tetris"
+>
+	
+	<LinearLayout
+		android:id="@+id/background"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:layout_gravity="center_horizontal"
+	>
+
+		<TextView
+			android:id="@+id/Tetris"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="15px"
+			android:text=" "
+			android:textSize="65sp"
+			android:textColor="#ff009900"
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"
+		>
+		</TextView>		
+		<ImageView
+			android:id="@+id/PlayGame"
+			android:src="@drawable/ui_button_start"
+	        android:clickable="true"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+		/>
+		
+		
+		<ImageView
+			android:id="@+id/ViewHighScores"
+			android:src="@drawable/ui_button_scores"
+	        android:clickable="true"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+		/>
+
+		<ImageView
+			android:id="@+id/Options"
+			android:src="@drawable/ui_button_options"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+            android:clickable="true"
+		/>
+		
+		
+		<ImageView
+			android:id="@+id/About"
+			android:src="@drawable/ui_button_about"
+	        android:clickable="true"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+		/>
+
+		<ImageView
+			android:id="@+id/Exit"
+			android:src="@drawable/ui_button_exit"
+	        android:clickable="true"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+		/>
+
+			          
+	</LinearLayout>
+	
+</LinearLayout>

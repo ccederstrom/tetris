@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/highscore_layout"	
+	android:orientation="vertical"
+	android:background = "#000000"	
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/game.tetris"
+	>
+		<TableLayout 
+		    android:id="@+id/highscore_table"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		></TableLayout>
+		<LinearLayout 
+			android:id="@+id/highscore_chart" 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			/>
+			
+</LinearLayout>

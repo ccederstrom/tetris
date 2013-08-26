@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="game.tetris"
+      android:versionCode="1"
+      
+      android:versionName="1.0">
+    <application android:label="@string/app_name"
+    			 android:debuggable="true"
+    			 android:icon="@drawable/tetris">
+    			
+        <activity android:name=".Menu"
+               	  android:configChanges="orientation|keyboardHidden"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Tetris"
+               	  android:configChanges="orientation|keyboardHidden"
+        		  android:label="@string/app_name"
+        		  >
+        </activity>
+        
+        <activity android:name=".HighScore"
+        		  android:label="@string/highscore_title"
+        		  >
+        </activity>
+        
+        <activity android:name=".About"
+        		  android:label="@string/about_title"
+        		  >
+        </activity>
+        
+        <activity android:name=".Settings"
+				  android:label="@string/settings_title"
+				  >
+		</activity>
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest> 

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <string name="hello">Hello World, TetrisAndroid!</string>
+    
+    <string name="app_name">Tetronomis</string>
+    
+	<!-- Main Menu -->
+	<string name="game_mode">Game Modes</string>
+	<string name="single_player">Single Player</string>
+	<string name="multiplayer">Multiplayer</string>
+	<string name="standard_mode">Standard Mode</string>
+	<string name="marathon_mode">Marathon Mode</string>
+    <string name="settings_title">Options</string>
+	<string name="about_text"> This application was created Spring 2010 for educational purposes only. 
+	We claim no affiliation with the makers of Tetris.  All Tetris related concepts belong to The Tetris 
+	Company, LLC. </string>
+	<string name="about_title">About Tetronomis</string>
+	<string name="highscore_title">My High Scores</string>
+
+	<!-- In Game Menu -->
+	<string name="in_game_save">Save Game</string>
+	<string name="in_game_resume">Resume</string>
+	<string name="in_game_options">Options</string>
+	<string name="in_game_exit">Exit To Menu</string>
+	<string name="in_game_back_title">Save</string>
+	<string name="in_game_back_msg">Save current game before exiting?</string>
+	<string name="in_game_back_no">No</string>
+	<string name="in_game_newgame">New Game</string>
+	
+	<!-- Option Menu -->
+	<!-- Music -->
+	<string name="music_title">Music</string>
+	<string name="music_summary">Play background music</string>
+	<!-- Sound Effect -->
+	<string name="sound_effect_title">Sound Effects</string>
+	<string name="sound_effect_summary">Play Sound Effect</string>
+	<!-- Delay -->
+	<string name="delay_title">Sensitivity Delay</string>
+	<string name="delay_summary">Response timer to touch screen</string>
+	<string name="delay_speed_title">Speeds</string>
+	<string name="delay_speed_1">1 - Fast</string>
+	<string name="delay_speed_2">2</string>
+	<string name="delay_speed_3">3 - Moderate</string>
+	<string name="delay_speed_4">4</string>
+	<string name="delay_speed_5">5 - Slow</string>
+	
+	<!-- Touch -->
+	<string name="touch_type_title">Touch Controller</string>
+	<string name="touch_type_summary">Type of touch screen controller</string>
+	<string name="touch_types_title">Touch Type</string>
+	<string name="touch_type_1">Tap</string>
+	<string name="touch_type_2">Drag</string>
+	
+	<!-- Rotation -->
+	<string name="rotate_title">Rotation direction</string>
+	<string name="rotate_summary">Rotate clockwise</string>
+
+	<!-- Prefilled Row  -->
+	<string name="prefilled_row_title">Prefilled Rows</string>
+	<string name="prefilled_row_summary">Number of rows to be filled in</string>
+	<string name="prefilled_row_0">0</string>
+	<string name="prefilled_row_1">1</string>
+	<string name="prefilled_row_2">2</string>
+	<string name="prefilled_row_3">3</string>
+	<string name="prefilled_row_4">4</string>
+	<string name="prefilled_row_5">5</string>
+	<string name="prefilled_row_6">6</string>
+	<string name="prefilled_row_7">7</string>
+	<string name="prefilled_row_8">8</string>
+	<string name="prefilled_row_9">9</string>
+	<string name="prefilled_row_10">10</string>
+	<string name="prefilled_row_11">11</string>
+	<string name="prefilled_row_12">12</string>
+	<string name="prefilled_row_13">13</string>
+	<string name="prefilled_row_14">14</string>
+	<string name="prefilled_row_15">15</string>
+	<string name="prefilled_row_16">16</string>
+	<string name="prefilled_row_17">17</string>
+	<string name="prefilled_row_18">18</string>
+	<string name="prefilled_row_19">19</string>
+	
+	<!-- Row Density  -->
+	<string name="row_density_title">Row density</string>
+	<string name="row_density_summary">Number of prefilled blocks per row</string>
+	<string name="row_density_0">0</string>
+	<string name="row_density_1">1</string>
+	<string name="row_density_2">2</string>
+	<string name="row_density_3">3</string>
+	<string name="row_density_4">4</string>
+	<string name="row_density_5">5</string>
+	<string name="row_density_6">6</string>
+	<string name="row_density_7">7</string>
+	<string name="row_density_8">8</string>
+	<string name="row_density_9">9</string>
+	
+	<!-- Save Game -->
+	<string name="saved_game_title">Saved Game Found!</string>
+	<string name="saved_game_msg">Saved Game found, starting a new game deletes all saved games. Would you like to continue previously saved game? </string>
+	<string name="yes">Yes</string>
+	<string name="no">New Game</string>
+	
+	<!-- Board Orientaton -->
+	<string name="board_orientation_title">Board Orientation</string>
+	<string name="board_orientation_summary">This changes the view of the board.</string>
+	<string name="board_orientation_auto">Auto</string>
+	<string name="board_orientation_portrait">Portrait</string>
+	<string name="board_orientation_landscape">Landscape</string>
+	
+	
+</resources>

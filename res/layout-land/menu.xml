@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout
+		android:id="@+id/widget0"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:padding="30dip"
+		android:background="@drawable/tetrisbg"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+		<LinearLayout
+			android:id="@+id/widget100"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal"
+		>
+			<TextView
+				android:id="@+id/Tetris"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10px"
+				android:text=" "
+				android:textSize="50sp"
+				android:gravity="center"
+				android:layout_gravity="center_horizontal"
+			>
+			</TextView>
+		
+		<TableLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center"
+			android:stretchColumns="*"
+		>
+		
+			<Button
+				android:id="@+id/PlayGame"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Play Game"
+			>
+			</Button>
+			
+			
+			
+			<TableRow>
+				<Button
+					android:id="@+id/ViewHighScores"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="High Scores"
+				>
+				</Button>
+			
+				<Button
+					android:id="@+id/About"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="About"
+				>
+				</Button>
+			</TableRow>
+			
+			<TableRow>
+				<Button
+					android:id="@+id/Options"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="Options"
+				>
+				</Button>
+				<Button
+					android:id="@+id/Exit"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="Exit"
+				>
+				</Button>
+			</TableRow>
+			</TableLayout>
+	</LinearLayout>
+</LinearLayout>

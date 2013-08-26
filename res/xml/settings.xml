@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+		android:key="music"
+		android:title="@string/music_title"
+		android:summary="@string/music_summary"
+		android:defaultValue="true"
+		>
+	</CheckBoxPreference>
+  
+ 	<CheckBoxPreference
+		android:key="sound_effect"
+		android:title="@string/sound_effect_title"
+		android:summary="@string/sound_effect_summary"
+		android:defaultValue="true"
+	>
+	</CheckBoxPreference>
+ 
+ ` <ListPreference
+	  	android:key="touch_type"
+	  	android:title="@string/touch_type_title"
+	  	android:summary="@string/touch_type_summary"
+	  	android:entryValues="@array/touch_type_values"
+	  	android:entries="@array/touch_type_entries"
+	  	android:defaultValue="1"
+  	>
+  	</ListPreference>
+  	
+  	
+  	<ListPreference
+	  	android:key="delay"
+	  	android:title="@string/delay_title"
+	  	android:summary="@string/delay_summary"
+	  	android:entries="@array/delay_speed"
+	  	android:entryValues="@array/delay_speed_values"
+	  	android:defaultValue="3"
+  	>
+  	</ListPreference>
+  	
+  	<ListPreference
+	  	android:key="board_orientation"
+	  	android:title="@string/board_orientation_title"
+	  	android:summary="@string/board_orientation_summary"
+	  	android:entries="@array/board_orientation_entries"
+	  	android:entryValues="@array/board_orientation_values"
+	  	android:defaultValue="1"
+  	>
+  	</ListPreference>
+  	
+  	 
+     <CheckBoxPreference
+		android:key="piece_rotation"
+		android:title="@string/rotate_title"
+		android:summary="@string/rotate_summary"
+		android:defaultValue="true"
+		>
+	</CheckBoxPreference>	
+
+  	<ListPreference
+	  	android:key="prefilled_row"
+	  	android:title="@string/prefilled_row_title"
+	  	android:summary="@string/prefilled_row_summary"
+	  	android:entryValues="@array/prefilled_row_values"
+	  	android:entries="@array/prefilled_row"
+	  	android:defaultValue="0"
+  	>
+  	</ListPreference>  	
+  	
+  	<ListPreference
+	  	android:key="row_density"
+	  	android:title="@string/row_density_title"
+	  	android:summary="@string/row_density_summary"
+	  	android:entryValues="@array/row_density_values"
+	  	android:entries="@array/row_density"
+	  	android:defaultValue="0"
+  	>
+  	</ListPreference>   	
+  	
+  	
+  	
+</PreferenceScreen>
